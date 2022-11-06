@@ -30,7 +30,7 @@ def vote(request, question_id):
     except (KeyError, Choice.DoesNotExist):
         return render(request, 'firstApp/detail.html', {
             'question': question,
-            'error_message': "You didn't select a choice.",
+            'error_message': "Vous avez rien selectionner.",
         })
     else:
         selected_choice.votes += 1

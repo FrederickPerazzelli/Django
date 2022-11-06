@@ -1,3 +1,136 @@
+*{
+    background-color: lightgray;
+    margin: auto;
+}
+
+body{
+    background-color: white;
+    width: 80%;
+    margin: auto;
+}
+
 li a {
     color: green;
+}
+
+.header-large{
+    width: 100%;
+    background-color: #f5fafd;
+}
+
+.large-banner{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.footer-large{
+    position:absolute;
+    bottom:0;
+    width: 80%;
+    height: 100px;
+    background-color: #baddf5;
+}
+
+.white-text{
+    margin-top: 5%;
+    text-align: center;
+    background-color:#baddf5;
+    color: black;
+}
+
+.center-h1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
+    background-color: #868686;
+    color: white;
+}
+
+.large-header{
+    width:100%;
+    background-color: white
+}
+
+.container-sondage{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: start;
+    background-color: whitesmoke;
+    height: 60%;
+}
+
+.tile-sondage{
+    display: block;
+    background-color: whitesmoke;
+    width: 100%;
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.question{
+    margin-left: 5%;
+    padding-top: 2%;
+    display: block;
+    font-size: larger;
+    background-color: whitesmoke;
+    text-decoration: none;
+    color: black;
+}
+
+.form{
+    padding-top: 2%;
+    width: 80%;
+    height: 60%;
+    background-color: white;
+}
+
+.form fieldset{
+    background-color: whitesmoke;
+    width: 80%;
+    height: 60%;
+    padding: 0;
+}
+
+.choice{
+    background-color: whitesmoke;
+    padding-left: 2%;
+    margin-top: 2%;
+    font-size: large;
+}
+
+.choice label{
+    background-color: whitesmoke;
+}
+
+.legend{
+    width: 100%;
+    background-color: #868686;
+    color: white;
+}
+
+
+.btn{
+    float: right;
+    margin-top: 2%;
+    margin-right: 10%;
+    background-color: lightgreen;
+    width: 10%;
+    cursor:pointer;
+    border: black 1px solid;
+}
+
+.error-message{
+    background-color: whitesmoke;
+    text-align: center;
+    color: red;
+}
+
+.error-message strong{
+    background-color: whitesmoke;
 }
