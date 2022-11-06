@@ -1,6 +1,7 @@
 *{
     background-color: lightgray;
     margin: auto;
+    font-family: 'Trebuchet MS';
 }
 
 body{
@@ -52,7 +53,7 @@ li a {
 
 .large-header{
     width:100%;
-    background-color: white
+    background-color: white;
 }
 
 .container-sondage{
@@ -74,13 +75,17 @@ li a {
 }
 
 .question{
-    margin-left: 5%;
-    padding-top: 2%;
     display: block;
+    margin-bottom: 1%;
     font-size: larger;
     background-color: whitesmoke;
     text-decoration: none;
     color: black;
+    padding-left: 2%;
+}
+
+.question:hover {
+    background-color: #ccc;
 }
 
 .form{
@@ -116,13 +121,54 @@ li a {
 
 
 .btn{
-    float: right;
+    align-content: flex-end;
     margin-top: 2%;
     margin-right: 10%;
-    background-color: lightgreen;
     width: 10%;
     cursor:pointer;
     border: black 1px solid;
+    border-radius: 10px;
+}
+
+.btn-soumettre{
+    background-color: #555555;
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    font-weight: bold; 
+    width: 10%;
+    text-align: center;
+    height: 7%;
+    color: white;
+}
+
+.btn-details{
+    background-color: #555555;
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    font-weight: bold; 
+    width: 20%;
+    text-align: center;
+    padding-top: 1%;
+    height: 7%;
+    color: white;
+}
+
+.btn-question{
+    background-color: #443355;
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    font-weight: bold; 
+    width: 20%;
+    text-align: center;
+    padding-top: 1%;
+    height: 7%;
+    color: white;
 }
 
 .error-message{
