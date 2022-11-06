@@ -35,7 +35,7 @@ li a {
 }
 
 .white-text{
-    margin-top: 5%;
+    margin-top: 2%;
     text-align: center;
     background-color:#baddf5;
     color: black;
@@ -179,4 +179,19 @@ li a {
 
 .error-message strong{
     background-color: whitesmoke;
+}
+
+.btn-admin{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    text-decoration: none;
+    background-color: #baddf5;
+    text-align: center;
+    color: black;
+}
+
+.btn-admin:hover {
+    background-color: #ccc;
 }
